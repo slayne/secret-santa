@@ -10,6 +10,10 @@ import socket
 import sys
 import getopt
 import os
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 help_message = '''
 To use, fill out config.yml with your own participants. You can also specify 
